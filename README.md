@@ -14,6 +14,7 @@
 Проект, посвященный путешествию по Россие. Он выполнен с помощью технологий display flex, display grid. Выравнивания были достигнуты использованием функций calc. Адаптивность и отзывчивость были реализованы при помощи медиазапросов "@media"
 
 Ссылка на проект: https://andrey-zinoviev-dev.github.io/russian-travel/
+
 **Figma**
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1)
