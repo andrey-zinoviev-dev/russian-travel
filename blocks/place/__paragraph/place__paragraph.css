@@ -1,0 +1,18 @@
+.place__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.place__paragraph:not(:nth-of-type(2n)) {
+    margin-bottom: 24px;
+}
+.place:nth-of-type(5n) .place__paragraph {
+    padding-top: 48px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
