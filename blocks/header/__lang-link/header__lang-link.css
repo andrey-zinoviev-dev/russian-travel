@@ -5,10 +5,15 @@
     text-decoration: none;
     transition: opacity 0.5s;
 }
-.header__lang-link:not(:nth-of-type(2n)) {
+.header__lang-link:not(:last-of-type) {
     margin-right: 18px;
 }
 .header__lang-link:hover {
     opacity: 0.8;
-    cursor: pointer;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }

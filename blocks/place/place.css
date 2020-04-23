@@ -10,7 +10,7 @@
     grid-template-columns: 460px 1fr;
     grid-gap: 40px;
 }
-.place:not(:nth-of-type(5n)) {
+.place:not(:last-of-type) {
     margin-bottom: 80px;
 }
 @media screen and (max-width: 1279px) {
@@ -24,7 +24,7 @@
         grid-template-columns: 340px 1fr;
         grid-gap: 28px;
     }
-    .place:not(:nth-of-type(5n)) {
+    .place:not(:last-of-type) {
         margin-bottom: 72px;
     }
 }
@@ -33,7 +33,7 @@
         grid-template-columns: 1fr;
         grid-gap: 0;
     }
-    .place:not(:nth-of-type(5n)) {
+    .place:not(:last-of-type) {
         margin-bottom: 48px;
     }
 }

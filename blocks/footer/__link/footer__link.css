@@ -9,14 +9,19 @@
     opacity: 0.8;
     cursor: pointer;
 }
-.footer__link:not(:nth-of-type(5n)) {
+.footer__link:not(:last-of-type) {
     margin-right: 18px;
 }
 @media screen and (min-width: 319px) and (max-width: 767px) {
-    .footer__link {
-        margin: 0 auto 32px 0;
+    .footer__link:not(:last-of-type) {
+        margin-right: 0;
     }
-    .footer__link:nth-of-type(5n) {
+    .footer__link {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .footer__link:last-of-type {
         margin: 0 auto 48px 0;
     }
 }

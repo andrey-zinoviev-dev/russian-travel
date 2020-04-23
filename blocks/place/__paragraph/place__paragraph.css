@@ -3,16 +3,30 @@
     line-height: 30px;
     margin: 0 auto;
 }
-.place__paragraph:not(:nth-of-type(2n)) {
+.place__paragraph:not(:last-of-type) {
     margin-bottom: 24px;
 }
-.place:nth-of-type(5n) .place__paragraph {
-    padding-top: 48px;
+.place:last-of-type .place__paragraph {
+    padding-top: 8px;
     margin: 0 auto;
+}
+@media screen and (max-width: 1279px) {
+    .place:last-of-type .place__paragraph {
+        padding-top: 16px;
+    }
 }
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
+    }
+    .place:last-of-type .place__paragraph {
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+    .place:last-of-type .place__paragraph {
+        padding-top: 0;
+        margin: 0 16px;
     }
 }

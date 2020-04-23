@@ -2,6 +2,7 @@
     font-size: 96px;
     line-height: 100px;
     margin: 0 calc((100% - 720px)/2) 32px;
+    font-weight: 900;
 }
 @media screen and (min-width: 319px) and (max-width: 767px) {
     .lead__title {

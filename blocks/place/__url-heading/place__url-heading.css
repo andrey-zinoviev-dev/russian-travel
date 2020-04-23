@@ -4,6 +4,7 @@
     line-height: 20px;
     color: #AAAAAA;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 @media screen and (max-width: 1023px) {
     .place__url-heading {
